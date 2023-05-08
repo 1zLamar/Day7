@@ -6,29 +6,29 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-//        //create Account class
-//        Account account = new Account("1", "Sara", 30000);
-//        Account account2 = new Account("2", "Saleh", 36000);
-//
-//        System.out.println("Your Name: " + account.getName());
-//        System.out.println("Your ID: " + account.getId());
-//        System.out.println("Your Balance: " + account.getBalance());
-//
-//        System.out.print("Please enter the amount to credit: ");
-//        int amount = scanner.nextInt();
-//        account.credit(amount);
-//        System.out.println("Your new balance: " + account.getBalance());
-//
-//        System.out.print("Please enter the amount to debit: ");
-//        amount = scanner.nextInt();
-//        account.debit(amount);
-//        System.out.println("Your new balance: " + account.getBalance());
-//
-//        System.out.print("Please enter the amount to transfer: ");
-//        amount = scanner.nextInt();
-//        account.transferTo(account2,amount);
-//        System.out.println(account.toString());
-//        System.out.println(account2.toString());
+        //create Account class
+        Account account = new Account("1", "Sara", 30000);
+        Account account2 = new Account("2", "Saleh", 36000);
+
+        System.out.println("Your Name: " + account.getName());
+        System.out.println("Your ID: " + account.getId());
+        System.out.println("Your Balance: " + account.getBalance());
+
+        System.out.print("Please enter the amount to credit: ");
+        int amount = scanner.nextInt();
+        account.credit(amount);
+        System.out.println("Your new balance: " + account.getBalance());
+
+        System.out.print("Please enter the amount to debit: ");
+        amount = scanner.nextInt();
+        account.debit(amount);
+        System.out.println("Your new balance: " + account.getBalance());
+
+        System.out.print("Please enter the amount to transfer: ");
+        amount = scanner.nextInt();
+        account.transferTo(account2,amount);
+        System.out.println(account.toString());
+        System.out.println(account2.toString());
 
 
 
